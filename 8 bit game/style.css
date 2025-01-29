@@ -1,0 +1,28 @@
+/* Center the canvas */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1d1f20; /* Dark background for contrast */
+}
+
+/* Style the canvas */
+canvas {
+    border: 4px solid #fff; /* White border for a retro look */
+    background-color: lightblue; /* Sky background */
+    image-rendering: pixelated; /* Enhance pixelated appearance */
+}
+
+/* Add a pixel font for the game */
+@font-face {
+    font-family: "PixelFont";
+    src: url("https://fonts.gstatic.com/s/pressstart2p/v8/e3t4eu-40E9Ezx0rD2gOAPao8ntA6G1r.ttf");
+}
+
+h1 {
+    font-family: "PixelFont", sans-serif;
+    color: white;
+    text-align: center;
+}
